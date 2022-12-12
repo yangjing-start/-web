@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lt-app-gateway" />
+        <module name="comment-service" />
+        <module name="debate-service" />
+        <module name="lt-feign-api" />
+        <module name="lt-auth" />
+        <module name="detail-service" />
+        <module name="behavior-service" />
+        <module name="match-service" />
+        <module name="lt-model" />
+        <module name="lt-utils" />
+        <module name="lt-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="behavior-service" target="1.8" />
+      <module name="comment-service" target="1.8" />
+      <module name="debate-service" target="1.8" />
+      <module name="detail-service" target="1.8" />
+      <module name="lt" target="1.8" />
+      <module name="lt-app-gateway" target="1.8" />
+      <module name="lt-auth" target="1.8" />
+      <module name="lt-basic" target="1.8" />
+      <module name="lt-common" target="1.8" />
+      <module name="lt-feign-api" target="1.8" />
+      <module name="lt-gateway" target="1.8" />
+      <module name="lt-model" target="1.8" />
+      <module name="lt-service" target="1.8" />
+      <module name="lt-utils" target="1.8" />
+      <module name="match-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="behavior-service" options="-parameters" />
+      <module name="comment-service" options="-parameters" />
+      <module name="debate-service" options="-parameters" />
+      <module name="detail-service" options="-parameters" />
+      <module name="lt" options="" />
+      <module name="lt-app-gateway" options="-parameters" />
+      <module name="lt-auth" options="-parameters" />
+      <module name="lt-common" options="-parameters" />
+      <module name="lt-feign-api" options="-parameters" />
+      <module name="lt-model" options="-parameters" />
+      <module name="lt-service" options="" />
+      <module name="lt-utils" options="-parameters" />
+      <module name="match-service" options="-parameters" />
+    </option>
+  </component>
+</project>

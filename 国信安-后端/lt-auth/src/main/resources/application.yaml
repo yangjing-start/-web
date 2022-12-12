@@ -1,0 +1,4 @@
+spring.mail.host: smtp.126.com
+spring.mail.username: wanxin202211@126.com
+spring.mail.password: ZUXFAZKOXDCLGBRK
+spring.mail.default-encoding: UTF-8

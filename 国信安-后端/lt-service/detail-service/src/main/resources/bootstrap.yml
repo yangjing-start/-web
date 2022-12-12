@@ -1,0 +1,15 @@
+server:
+  port: 9995
+spring:
+  application:
+    name: lt-service-detail
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 175.178.123.91:8848
+      config:
+        server-addr: 175.178.123.91:8848
+        file-extension: yml
+      # nacos密码
+      password: nacos
+      username: nacos

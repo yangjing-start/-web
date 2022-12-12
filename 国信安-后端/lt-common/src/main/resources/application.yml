@@ -1,0 +1,3 @@
+rsa:
+  key:
+    pubKeyFile: D:\auth_key\id_key_rsa.pub

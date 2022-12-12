@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lt.debate.mapper.DebateContentMapper">
+    <resultMap id="ContentResultMap" type="com.lt.model.debate.pojo.DebateContent">
+        <result column="info_id" property="infoId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="owner_id" property="ownerId"/>
+        <result column="kind_id" property="kindId"/>
+    </resultMap>
+    <select id="findContentListByLast5days" resultMap="ContentResultMap">
+        SELECT
+        aa.*
+        FROM
+        `content` aa
+        <where>
+            and aa.state != 0
+            <if test="dayParam != null">
+                and aa.create_time <![CDATA[>=]]> #{dayParam}
+            </if>
+        </where>
+    </select>
+</mapper>

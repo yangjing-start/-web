@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lt-service/behavior-service/behavior-service.iml" filepath="$PROJECT_DIR$/lt-service/behavior-service/behavior-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-service/comment-service/comment-service.iml" filepath="$PROJECT_DIR$/lt-service/comment-service/comment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-service/debate-service/debate-service.iml" filepath="$PROJECT_DIR$/lt-service/debate-service/debate-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-service/detail-service/detail-service.iml" filepath="$PROJECT_DIR$/lt-service/detail-service/detail-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt.iml" filepath="$PROJECT_DIR$/lt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-gateway/lt-app-gateway/lt-app-gateway.iml" filepath="$PROJECT_DIR$/lt-gateway/lt-app-gateway/lt-app-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-auth/lt-auth.iml" filepath="$PROJECT_DIR$/lt-auth/lt-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-basic/lt-basic.iml" filepath="$PROJECT_DIR$/lt-basic/lt-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-common/lt-common.iml" filepath="$PROJECT_DIR$/lt-common/lt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-feign-api/lt-feign-api.iml" filepath="$PROJECT_DIR$/lt-feign-api/lt-feign-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-gateway/lt-gateway.iml" filepath="$PROJECT_DIR$/lt-gateway/lt-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-model/lt-model.iml" filepath="$PROJECT_DIR$/lt-model/lt-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-service/lt-service.iml" filepath="$PROJECT_DIR$/lt-service/lt-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-utils/lt-utils.iml" filepath="$PROJECT_DIR$/lt-utils/lt-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lt-service/match-service/match-service.iml" filepath="$PROJECT_DIR$/lt-service/match-service/match-service.iml" />
+    </modules>
+  </component>
+</project>

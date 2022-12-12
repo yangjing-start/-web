@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RedisConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="databaseVendor" value="DatabaseVendor{name='RedisDB'}" />
+          <option name="defaultKeyFilter" value="*" />
+          <option name="label" value="Lt" />
+          <option name="password" value="123456" />
+          <option name="sercurityInfo">
+            <SercurityInfo />
+          </option>
+          <option name="serverUrl" value="175.178.123.91:7651" />
+          <option name="userName" value="" />
+        </ServerConfiguration>
+      </list>
+    </option>
+  </component>
+</project>
